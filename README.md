@@ -1,16 +1,51 @@
-# React + Vite
+# 📈 Stock Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time paper trading simulator built with React. Practice trading with $10,000 virtual cash using live stock prices.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 💹 Live stock prices via Finnhub API (refreshes every 15s)
+- 📊 Mini sparkline charts per stock
+- 💼 Portfolio tracking with P&L
+- 🕓 Transaction history
+- 🤖 AI market assistant (powered by OpenRouter)
+- 🔄 Reset portfolio anytime
 
-## React Compiler
+## Stocks Available
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+AAPL · GOOGL · MSFT · TSLA · AMZN · NVDA · META · NFLX
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite
+- Finnhub API (live prices)
+- OpenRouter API (AI chatbot)
+- Canvas API (sparklines)
+- localStorage (portfolio persistence)
+
+## Getting Started
+
+1. Clone the repo
+```bash
+   git clone https://github.com/Anirudhh-Srinivasan/stock-simulator.git
+   cd stock-simulator
+```
+
+2. Install dependencies
+```bash
+   npm install
+```
+
+3. Create a `.env` file in the root folder
+   VITE_FINNHUB_API_KEY=your_finnhub_key
+VITE_OPENROUTER_API_KEY=your_openrouter_key
+4. Run the app
+```bash
+   npm run dev
+```
+
+5. Open [http://localhost:5173](http://localhost:5173)
+
+## Demo
+
+> Start with $10,000 virtual cash. Buy and sell stocks at live market prices. Ask the AI assistant for market insights and trading strategies.
