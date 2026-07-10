@@ -44,7 +44,7 @@ VITE_OPENROUTER_API_KEY=your_openrouter_key
    npm run dev
 ```
 
-5. Open [http://localhost:5173](http://localhost:5173)
+
 
 ## Demo
 
